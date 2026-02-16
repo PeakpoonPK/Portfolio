@@ -52,11 +52,11 @@ export const projects: Project[] = [
         role: 'Frontend developer & UX/UI designer',
         techStack: ['Project currently in discovery and planning stage.'],
         images: [
+            '/project/hvac/rule management.png',
+            '/project/hvac/notification history.png',
             '/project/hvac/dashboard.jpg',
             '/project/hvac/graph.jpg',
-            '/project/hvac/notifications history.png',
             '/project/hvac/rule management - add new rule - telemetry.png',
-            '/project/hvac/rule management.png',
             '/project/hvac/SCADA.jpg'
         ],
         keyFeatures: [
