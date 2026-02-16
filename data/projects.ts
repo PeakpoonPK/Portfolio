@@ -50,7 +50,7 @@ export const projects: Project[] = [
         type: 'web',
         description: 'A real-time HVAC and operating room equipment monitoring platform designed to ensure environmental control standards in surgical rooms. The system streams live data to a central company dashboard, enabling immediate issue detection and response across multiple hospitals.',
         role: 'Frontend developer & UX/UI designer',
-        techStack: ['Project currently in discovery and planning stage.'],
+        techStack: ['Next.js', 'TypeScript', 'React', 'MUI', 'Node.js', 'PostgreSQL'],
         images: [
             '/project/hvac/rule management.png',
             '/project/hvac/notification history.png',
@@ -78,8 +78,8 @@ export const projects: Project[] = [
         category: 'Operating Room Management',
         type: 'web',
         description: 'A smart operating room scheduling system designed to streamline surgical booking and improve coordination across departments. The platform provides calendar-based scheduling, weekly planning, and real-time synchronization with digital signage outside operating rooms.',
-        role: 'UX/UI Designer & Product Strategist',
-        techStack: ['Project currently in planning and system design phase.'],
+        role: 'Frontend Developer & UX/UI Designer',
+        techStack: ['Next.js', 'TypeScript', 'React', 'MUI', 'Node.js', 'PostgreSQL'],
         images: [
             '/project/smartor/Home.jpg',
             '/project/smartor/calendar.jpg',
