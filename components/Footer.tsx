@@ -7,15 +7,42 @@ export default function Footer() {
                     <p className="text-gray-400">Open for new opportunities.</p>
                 </div>
                 <div className="flex space-x-6">
-                    {/* Social placeholders */}
-                    <a href="#" className="text-gray-400 hover:text-brand-primary transition-colors">Twitter</a>
-                    <a href="#" className="text-gray-400 hover:text-brand-primary transition-colors">LinkedIn</a>
-                    <a href="#" className="text-gray-400 hover:text-brand-primary transition-colors">GitHub</a>
+                    {/* Social links */}
+                    <a
+                        href="https://www.instagram.com/peakpoon_pk/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-gray-400 hover:text-brand-primary transition-colors"
+                    >
+                        Instagram
+                    </a>
+                    <a
+                        href="https://www.linkedin.com/in/panchiwa-komol-2620a0296/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-gray-400 hover:text-brand-primary transition-colors"
+                    >
+                        LinkedIn
+                    </a>
+                    <a
+                        href="https://github.com/peakpoonPK"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-gray-400 hover:text-brand-primary transition-colors"
+                    >
+                        GitHub
+                    </a>
+                    <a
+                        href="https://drive.google.com/file/d/1GYp3Tj-nJsAs71d5_3qpUqjWtrbc_pEE/view?usp=drive_link"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-gray-400 hover:text-brand-primary transition-colors border-l border-gray-600 pl-6 ml-6"
+                    >
+                        Resume / CV
+                    </a>
                 </div>
             </div>
-            <div className="max-w-7xl mx-auto px-6 mt-8 pt-8 border-t border-brand-secondary/30 text-center text-gray-500 text-sm">
-                © {new Date().getFullYear()} Serge Studios Inspired. All rights reserved.
-            </div>
+
         </footer>
     );
 }

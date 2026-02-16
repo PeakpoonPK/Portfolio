@@ -24,21 +24,22 @@ export default function Cursor() {
 
     const variants = {
         default: {
-            x: mousePosition.x - 16,
-            y: mousePosition.y - 16,
-            height: 32,
-            width: 32,
-            backgroundColor: "rgba(250, 61, 140, 0.5)",
-            border: "2px solid #FA3D8C",
+            x: mousePosition.x - 6,
+            y: mousePosition.y - 6,
+            height: 12,
+            width: 12,
+            backgroundColor: "#FA3D8C",
+            border: "none",
+            mixBlendMode: "normal" as const,
         },
         hover: {
-            x: mousePosition.x - 32,
-            y: mousePosition.y - 32,
-            height: 64,
-            width: 64,
-            backgroundColor: "rgba(255, 0, 127, 0.8)",
-            border: "2px solid #FF007F",
-            mixBlendMode: "difference" as const,
+            x: mousePosition.x - 24,
+            y: mousePosition.y - 24,
+            height: 48,
+            width: 48,
+            backgroundColor: "transparent",
+            border: "2px solid #FA3D8C",
+            mixBlendMode: "normal" as const,
         }
     };
 
@@ -58,13 +59,14 @@ export default function Cursor() {
 
     return (
         <motion.div
-            className="fixed top-0 left-0 rounded-full pointer-events-none z-50 backdrop-blur-sm"
+            className="fixed top-0 left-0 rounded-full pointer-events-none z-[9999]"
             variants={variants}
             animate={cursorVariant}
             transition={{
                 type: "spring",
-                stiffness: 500,
-                damping: 28
+                stiffness: 800,
+                damping: 35,
+                mass: 0.5
             }}
         />
     );

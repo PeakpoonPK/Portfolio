@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Serge Studios Inspired Portfolio",
+  title: "Peakpoon Portfolio",
   description: "A minimal, high-end portfolio website.",
 };
 
