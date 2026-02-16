@@ -81,11 +81,11 @@ export const projects: Project[] = [
         role: 'Frontend Developer & UX/UI Designer',
         techStack: ['Next.js', 'TypeScript', 'React', 'MUI', 'Node.js', 'PostgreSQL'],
         images: [
-            '/project/smartor/Home.jpg',
-            '/project/smartor/calendar.jpg',
-            '/project/smartor/table.jpg',
-            '/project/smartor/room.jpg',
-            '/project/smartor/booking.jpg',
+            '/project/smartOR/Home.jpg',
+            '/project/smartOR/calendar.jpg',
+            '/project/smartOR/table.jpg',
+            '/project/smartOR/room.jpg',
+            '/project/smartOR/booking.jpg',
         ],
         keyFeatures: [
             'Calendar-based Operating Room Scheduling',
