@@ -33,7 +33,7 @@ export default function Footer() {
                         GitHub
                     </a>
                     <a
-                        href="https://drive.google.com/file/d/1GYp3Tj-nJsAs71d5_3qpUqjWtrbc_pEE/view?usp=drive_link"
+                        href="https://drive.google.com/drive/folders/1djBfrAXA2mEsMeF91qJvN7S2gjl4OtZN?usp=sharing"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-gray-400 hover:text-brand-primary transition-colors border-l border-gray-600 pl-6 ml-6"
@@ -42,7 +42,6 @@ export default function Footer() {
                     </a>
                 </div>
             </div>
-
         </footer>
     );
 }
